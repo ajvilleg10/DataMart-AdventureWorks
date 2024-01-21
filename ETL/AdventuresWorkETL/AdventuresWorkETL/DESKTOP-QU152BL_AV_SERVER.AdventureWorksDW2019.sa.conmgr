@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-QU152BL_AV_SERVER.AdventureWorksDW2019.sa"
+  DTS:DTSID="{B4A7A751-B40F-49A7-8881-918C5E480A1E}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=DESKTOP-QU152BL\AV_SERVER;User ID=sa;Initial Catalog=AdventureWorksDW2019;Persist Security Info=True;Application Name=SSIS-AdventuresWorkETL-{B4A7A751-B40F-49A7-8881-918C5E480A1E}DESKTOP-QU152BL\AV_SERVER.AdventureWorksDW2019.sa;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAB5VhyhWd6UOg5VH/qJkU6wAAAAACAAAAAAAQZgAAAAEAACAAAADt1krBq0SIt7F8JXTqUnzqUfKePGh5A/gFG+nIhcjcjQAAAAAOgAAAAAIAACAAAAC8knA+trg3v5LLLA+E7eCxopdq0hmrSmLuJ1Np9doPIIAAAACy5EKAu9UIvq9hQX4aDrndPK5KAMmrm3jboUX7msXCHh8ujg23BNU31rzCHgaM2cgmhJ/27uMW9USO1nijgX/col0uIYY4BgIAwk9RbMRWxRtHRV9QkIro59d+XyBLXk3GkRqBzCPcP86s2kkwa2AV5+Z9cgxzntMfzRluzZTkjUAAAABGNFWI1tOu2tsXj8Vw3qZT8l5UbRMm1dy1OfoLX3/TIFduLjUAbmbXkUfH5KG4vt4PjlE04KzKn5PyS8RxbdtQ</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
