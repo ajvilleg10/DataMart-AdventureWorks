@@ -1,0 +1,90 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>Adventure Works ETL</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-QU152BL\AV_SERVER;Persist Security Info=True;Password=;User ID=;Initial Catalog=AdventureWorksETL</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>DIM SALESTERRITORY DEST</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM PROMO DEST</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM CUSTOMER DEST</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM DATE DEST</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM PRODUCT DEST</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Adventure Works ETL</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>H FACTSALES DEST</ID>
+            <Partitions>
+              <Partition>
+                <ID>H FACTSALES DEST</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>DIM SALESTERRITORY DEST</ID>
+            <Partitions>
+              <Partition>
+                <ID>DIM SALESTERRITORY DEST</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>DIM PROMO DEST</ID>
+            <Partitions>
+              <Partition>
+                <ID>DIM PROMO DEST</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>DIM DATE DEST</ID>
+            <Partitions>
+              <Partition>
+                <ID>DIM DATE DEST</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>DIM PRODUCT DEST</ID>
+            <Partitions>
+              <Partition>
+                <ID>DIM PRODUCT DEST</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>DIM CUSTOMER DEST</ID>
+            <Partitions>
+              <Partition>
+                <ID>DIM CUSTOMER DEST</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

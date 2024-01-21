@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Adventure Works ETL</Id>
+            <Name>Adventure Works ETL</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAB5VhyhWd6UOg5VH/qJkU6wAAAAAoAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABFAFQATAAAABBmAAAAAQAAIAAAAJBVyNu41a6oGY0v6uUM8+TcyT2cnQsCILJE6JDaU40BAAAAAA6AAAAAAgAAIAAAAFKeqAmp+7pqrSDXLDcHjK8Izj059GTptGHVOz1jThncEAAAAGO5SUv/pgvESUqjzyR6vSJAAAAAwvD39w96beTm4YPgiS4dAJs/txOyvILpUaNhcFpQcdsqOg89O/eqttFySsyZ3C/tMWa+t6lpojoz2/W7ZwBAQg==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Adventure Works ETL</Id>
+            <Name>Adventure Works ETL</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAB5VhyhWd6UOg5VH/qJkU6wAAAAAoAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABFAFQATAAAABBmAAAAAQAAIAAAANrjIAiXfFZmvC+/p6lZNJ+9QssFZFICfoNP2+Tz3Xw6AAAAAA6AAAAAAgAAIAAAAGQG3T93srCNWsQu3iHPBCyDT0jbNXB45shlsHgJJhc5IAAAAPksYiHZy1qjwvFCEe2zst8G3v8dkSdSh4nPdzwwKPeHQAAAAC+p2IJnRBTHj472vivud8eixn2Zsqaf9h4lkxpfIMypgC5JJW2H92baO5Lv+sw+JM+dQjXxTYVzi69AJscvItM=</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>DESKTOP-QU152BL\AV_SERVER</TargetServer>
+        <TargetDatabase>AdventureWorksCube</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

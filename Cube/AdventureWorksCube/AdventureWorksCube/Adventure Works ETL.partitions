@@ -1,0 +1,125 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b6fecf6b-02c8-4ea7-a6bb-22af9be44fae" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Adventure Works ETL</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>H FACTSALES DEST</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4274706f-6275-4684-921d-93b318e4d774">
+          <ID>H FACTSALES DEST</ID>
+          <Name>H FACTSALES DEST</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="73d3047d-db11-4585-ab8d-e1b5a1961f0e">
+            <DataSourceViewID>Adventure Works ETL</DataSourceViewID>
+            <TableID>dbo_H_FACTSALES_DEST</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM SALESTERRITORY DEST</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3e52dbe9-b61e-49e8-a455-650fc3e2f8d1">
+          <ID>DIM SALESTERRITORY DEST</ID>
+          <Name>DIM SALESTERRITORY DEST</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5c4446dc-1870-42ca-aa4d-4d8943319944">
+            <DataSourceViewID>Adventure Works ETL</DataSourceViewID>
+            <TableID>dbo_DIM_SALESTERRITORY_DEST</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM PROMO DEST</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1e6727d7-d9cc-4079-9755-e2d9e12adc90">
+          <ID>DIM PROMO DEST</ID>
+          <Name>DIM PROMO DEST</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3957dc69-219e-4c11-b903-5469ebff2eb9">
+            <DataSourceViewID>Adventure Works ETL</DataSourceViewID>
+            <TableID>dbo_DIM_PROMO_DEST</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM DATE DEST</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="5be32b38-ad77-435b-a0cc-74861d099ec5">
+          <ID>DIM DATE DEST</ID>
+          <Name>DIM DATE DEST</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c90b3900-a8a8-4654-a036-56134e5a1798">
+            <DataSourceViewID>Adventure Works ETL</DataSourceViewID>
+            <TableID>dbo_DIM_DATE_DEST</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM PRODUCT DEST</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="5f3dd9bc-043a-4f76-ad22-15c24c1e980c">
+          <ID>DIM PRODUCT DEST</ID>
+          <Name>DIM PRODUCT DEST</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4e122667-8f4b-420a-84aa-cb9d0fd2d076">
+            <DataSourceViewID>Adventure Works ETL</DataSourceViewID>
+            <TableID>dbo_DIM_PRODUCT_DEST</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM CUSTOMER DEST</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4075252e-5115-410c-92a8-0ebead4c7050">
+          <ID>DIM CUSTOMER DEST</ID>
+          <Name>DIM CUSTOMER DEST</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7dfd7972-5aff-4380-a044-b7efce249a29">
+            <DataSourceViewID>Adventure Works ETL</DataSourceViewID>
+            <TableID>dbo_DIM_CUSTOMER_DEST</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
